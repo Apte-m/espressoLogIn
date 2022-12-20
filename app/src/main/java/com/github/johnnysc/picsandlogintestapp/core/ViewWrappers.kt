@@ -8,7 +8,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 
 /**
- * @author Asatryan on 15.05.21
+
  **/
 class MyTextView : androidx.appcompat.widget.AppCompatTextView, TextContainer {
 

@@ -11,7 +11,7 @@ import okhttp3.ResponseBody
 /**
  * Основная реализация репозитория изображений
  *
- * @author Asatryan on 05.04.21
+
  **/
 class PicsRepositoryImpl(private val service: PicsService) : PicsRepository {
 

@@ -3,7 +3,7 @@ package com.github.johnnysc.picsandlogintestapp.core
 /**
  * Класс для определения типа исключения
  *
- * @author Asatryan on 10.04.21
+
  **/
 interface ExceptionHandler {
 

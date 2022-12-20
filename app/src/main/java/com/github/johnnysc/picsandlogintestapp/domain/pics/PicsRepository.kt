@@ -5,7 +5,7 @@ import com.github.johnnysc.picsandlogintestapp.data.pics.PicDTO
 /**
  * Репозиторий изображений
  *
- * @author Asatryan on 05.04.21
+
  **/
 interface PicsRepository {
 

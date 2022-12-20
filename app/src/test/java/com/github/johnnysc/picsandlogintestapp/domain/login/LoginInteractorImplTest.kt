@@ -15,7 +15,7 @@ import java.net.UnknownHostException
  *
  * @see LoginInteractorImpl
  *
- * @author Asatryan on 10.04.21
+
  */
 class LoginInteractorImplTest {
 

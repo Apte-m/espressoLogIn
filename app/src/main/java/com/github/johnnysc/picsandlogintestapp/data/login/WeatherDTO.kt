@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 /**
  * Данные по погоде от сервера
  *
- * @author Asatryan on 06.04.21
+
  **/
 data class WeatherDTO(
     @SerializedName("weather") val weatherInnerDTO: List<WeatherInnerDTO>,

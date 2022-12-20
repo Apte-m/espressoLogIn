@@ -9,7 +9,7 @@ import org.junit.Test
  *
  * @see MinLengthValidator
  *
- * @author Asatryan on 31.03.21
+
  */
 class MinLengthValidatorTest {
 

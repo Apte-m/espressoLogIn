@@ -3,7 +3,7 @@ package com.github.johnnysc.picsandlogintestapp.domain.pics
 /**
  * Интерактор для изображений
  *
- * @author Asatryan on 05.04.21
+
  **/
 interface PicsInteractor {
 

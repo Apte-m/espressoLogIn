@@ -13,7 +13,7 @@ import java.net.UnknownHostException
  *
  * @see PicsInteractorImpl
  *
- * @author Asatryan on 10.04.21
+
  */
 class PicsInteractorImplTest {
 

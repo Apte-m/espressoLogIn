@@ -7,7 +7,7 @@ package com.github.johnnysc.picsandlogintestapp.core
  * Для одного валидатора использовать один из конечных валидаторов
  * @see UiValidator
  *
- * @author Asatryan on 19.04.21
+
  */
 class UiValidatorChain(
     private val base: UiValidator,

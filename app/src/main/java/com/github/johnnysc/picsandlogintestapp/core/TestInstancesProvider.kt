@@ -8,7 +8,7 @@ import com.github.johnnysc.picsandlogintestapp.domain.pics.*
 /**
  * Провайдит тестовые инстансы
  *
- * @author Asatryan on 10.04.21
+
  **/
 class TestInstancesProvider : AbstractInstanceProvider() {
 

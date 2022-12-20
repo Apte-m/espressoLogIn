@@ -9,7 +9,7 @@ import com.github.johnnysc.picsandlogintestapp.domain.pics.*
 /**
  * Предоставляем базовые инстансы
  *
- * @author Asatryan on 10.04.21
+
  **/
 class BaseInstancesProvider(
     private val context: Context,

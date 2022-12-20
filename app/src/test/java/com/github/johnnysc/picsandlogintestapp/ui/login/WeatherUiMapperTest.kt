@@ -12,7 +12,7 @@ import org.junit.Test
  *
  * @see WeatherUiMapper
  *
- * @author Asatryan on 10.04.21
+
  */
 class WeatherUiMapperTest {
 

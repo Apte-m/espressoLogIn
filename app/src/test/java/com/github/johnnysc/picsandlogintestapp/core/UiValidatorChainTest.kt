@@ -6,8 +6,7 @@ import org.junit.Test
 
 /**
  * Тестируем цепочки валидаторов
- *
- * @author Asatryan on 19.04.21
+
  **/
 class UiValidatorChainTest {
 

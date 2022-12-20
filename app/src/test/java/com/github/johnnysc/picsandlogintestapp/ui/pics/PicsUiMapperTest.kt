@@ -14,7 +14,7 @@ import org.junit.Test
  *
  * @see PicsUiMapper
  *
- * @author Asatryan on 01.04.21
+
  */
 class PicsUiMapperTest {
 

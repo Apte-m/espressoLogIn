@@ -8,7 +8,7 @@ import java.lang.Exception
 /**
  * Интерактор для изображений, основная реализация
  *
- * @author Asatryan on 05.04.21
+
  **/
 class PicsInteractorImpl(
     private val repository: PicsRepository,

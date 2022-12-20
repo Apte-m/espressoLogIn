@@ -5,7 +5,7 @@ import com.github.johnnysc.picsandlogintestapp.core.ExceptionType
 /**
  * Данные по погоде для слоя бизнес логики
  *
- * @author Asatryan on 06.04.21
+
  **/
 sealed class WeatherItem {
     abstract fun <T> map(mapper: WeatherUiMapper<T>): T

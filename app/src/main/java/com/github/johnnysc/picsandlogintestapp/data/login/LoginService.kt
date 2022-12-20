@@ -6,7 +6,7 @@ import retrofit2.http.Query
 /**
  * Сервис для логина
  *
- * @author Asatryan on 06.04.21
+
  **/
 interface LoginService {
 

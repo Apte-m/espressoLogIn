@@ -5,7 +5,7 @@ import com.github.johnnysc.picsandlogintestapp.core.ExceptionType
 /**
  * Изображение для бизнес логики
  *
- * @author Asatryan on 06.04.21
+
  **/
 sealed class PicItem {
     abstract fun <T> map(mapper: PicItemUiMapper<T>): T

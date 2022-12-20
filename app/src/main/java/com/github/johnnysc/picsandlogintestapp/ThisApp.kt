@@ -16,7 +16,7 @@ import com.github.johnnysc.picsandlogintestapp.ui.login.validator.PasswordValida
 /**
  * Кастомный класс для приложения
  *
- * @author Asatryan on 05.04.21
+
  **/
 class ThisApp : Application() {
 

@@ -6,7 +6,7 @@ import com.github.johnnysc.picsandlogintestapp.data.pics.PicDTO
 /**
  * Мапим данные с сервера к данным бизнес логики
  *
- * @author Asatryan on 05.04.21
+
  **/
 class PicItemMapper : Mapper<List<PicItem>, List<PicDTO>> {
 

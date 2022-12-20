@@ -6,7 +6,7 @@ import com.github.johnnysc.picsandlogintestapp.data.login.WeatherDTO
 /**
  * Мапим данные погоды от сервера к данным бизнес логики
  *
- * @author Asatryan on 06.04.21
+
  **/
 class WeatherItemMapper : Mapper<WeatherItem, WeatherDTO> {
 

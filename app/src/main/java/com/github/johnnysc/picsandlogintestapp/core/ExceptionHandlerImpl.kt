@@ -5,7 +5,7 @@ import java.net.UnknownHostException
 /**
  * Основная реализация обработчика исключений
  *
- * @author Asatryan on 10.04.21
+
  **/
 class ExceptionHandlerImpl : ExceptionHandler {
 

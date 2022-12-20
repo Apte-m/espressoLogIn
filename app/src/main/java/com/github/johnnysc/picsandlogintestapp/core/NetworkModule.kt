@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 /**
  * Модуль для работы с сетью
  *
- * @author Asatryan on 05.04.21
+
  **/
 class NetworkModule {
 

@@ -7,7 +7,7 @@ import com.github.johnnysc.picsandlogintestapp.ui.login.LoginFragment
 import com.github.johnnysc.picsandlogintestapp.ui.pics.PicsFragment
 
 /**
- * @author Asatryan on 31.03.21
+
  */
 class MainActivity : AppCompatActivity() {
 

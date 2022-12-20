@@ -13,7 +13,7 @@ import org.junit.Test
  *
  * @see WeatherItemMapper
  *
- * @author Asatryan on 10.04.21
+
  */
 class WeatherItemMapperTest {
 

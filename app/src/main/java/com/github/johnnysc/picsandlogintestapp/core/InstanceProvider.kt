@@ -10,7 +10,7 @@ import com.github.johnnysc.picsandlogintestapp.ui.pics.adapter.PicUiModel
 /**
  * Провайдер инстансов
  *
- * @author Asatryan on 10.04.21
+
  **/
 interface InstanceProvider : LoginInstancesProvider, PicsInstancesProvider {
 

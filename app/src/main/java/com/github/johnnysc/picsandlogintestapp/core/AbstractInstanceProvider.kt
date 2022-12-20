@@ -12,7 +12,7 @@ import com.github.johnnysc.picsandlogintestapp.ui.pics.adapter.PicUiModel
 /**
  * Абстрактный провайдер инстансов для предоставления одинаковых реализаций
  *
- * @author Asatryan on 10.04.21
+
  **/
 abstract class AbstractInstanceProvider : InstanceProvider {
 

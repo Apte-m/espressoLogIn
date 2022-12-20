@@ -5,7 +5,7 @@ import androidx.annotation.StringRes
 /**
  * Класс обертка над контекстом для удобного доступа к ресурсам
  *
- * @author Asatryan on 09.04.21
+
  */
 interface ResourceManager {
 

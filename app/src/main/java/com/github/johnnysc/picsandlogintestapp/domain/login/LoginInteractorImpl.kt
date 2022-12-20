@@ -7,8 +7,7 @@ import java.lang.Exception
 
 /**
  * Основная реализация интерактора для логина
- *
- * @author Asatryan on 06.04.21
+
  **/
 class LoginInteractorImpl(
     private val repository: LoginRepository,

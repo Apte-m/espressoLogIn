@@ -3,7 +3,7 @@ package com.github.johnnysc.picsandlogintestapp.core
 /**
  * Тестовая реализация ресурс менеджера
  *
- * @author Asatryan on 10.04.21
+
  **/
 class TestResourceManagerImpl : ResourceManager {
 

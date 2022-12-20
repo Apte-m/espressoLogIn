@@ -6,7 +6,7 @@ import java.net.UnknownHostException
 /**
  * Тестовая реализация репозитория для логина
  *
- * @author Asatryan on 10.04.21
+
  **/
 class TestLoginRepositoryImpl : LoginRepository {
 

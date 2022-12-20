@@ -6,8 +6,7 @@ import com.github.johnnysc.picsandlogintestapp.R
 
 /**
  * Основная реализация менеджера ресурсов
- *
- * @author Asatryan on 10.04.21
+
  **/
 class ResourceManagerImpl(private val context: Context) : ResourceManager {
 

@@ -5,9 +5,7 @@ import com.google.android.material.textfield.TextInputLayout
 import org.hamcrest.Description
 import org.hamcrest.TypeSafeMatcher
 
-/**
- * @author Asatryan on 03.11.2022
- */
+
 class HasTextInputLayoutErrorMatcher(private val expectedErrorText: String) :
     TypeSafeMatcher<View>() {
 

@@ -6,7 +6,7 @@ import java.net.UnknownHostException
 /**
  * Тестовая реализация репозитория изображений
  *
- * @author Asatryan on 10.04.21
+
  **/
 class TestPicsRepositoryImpl : PicsRepository {
 

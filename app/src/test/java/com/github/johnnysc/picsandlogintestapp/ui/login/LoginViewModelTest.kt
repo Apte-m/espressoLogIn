@@ -14,7 +14,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**
- * @author Asatryan on 03.11.2022
+
  */
 class LoginViewModelTest {
 

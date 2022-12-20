@@ -9,7 +9,7 @@ import retrofit2.http.Query
 /**
  * Сервис для получения изображений
  *
- * @author Asatryan on 05.04.21
+
  **/
 interface PicsService {
 

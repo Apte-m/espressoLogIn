@@ -6,7 +6,7 @@ import java.lang.RuntimeException
 /**
  * Провайдит нужные инстансы обьектов в зависимости от конфигурации
  *
- * @author Asatryan on 10.04.21
+
  **/
 class ServiceLocator(
     configuration: String,

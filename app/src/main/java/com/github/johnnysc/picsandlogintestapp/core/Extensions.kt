@@ -15,7 +15,7 @@ import okhttp3.ResponseBody
 /**
  * Экстеншн функции
  *
- * @author Asatryan on 05.04.21
+
  **/
 
 @Suppress("BlockingMethodInNonBlockingContext")
