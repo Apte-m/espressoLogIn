@@ -26,21 +26,25 @@ class MainActivityTest {
 
     @Test
     fun checkInputText() {
-        LoginPage()
-            .clickElement(navigationLogin)
-            .checkIsDisplayed(viewLogin)
-            .clickElement(loginButton)
-            .hasTextInputLayoutErrorMatcher(textLoginError, "Input is empty")
-            .hasTextInputLayoutErrorMatcher(textPasswordError, "Input is empty")
+
+        LoginPage {
+            clickElement(navigationLogin)
+            checkIsDisplayed(viewLogin)
+            clickElement(loginButton)
+            hasTextInputLayoutErrorMatcher(textLoginError, "Input is empty")
+            hasTextInputLayoutErrorMatcher(textPasswordError, "Input is empty")
+        }
 
     }
 
     @Test
     fun checkNoErrorText() {
+
         LoginPage()
             .clickElement(navigationLogin)
             .inputTextToForm(inputTextLogin, "j")
             .textInputLayoutHasNoError(emailAddress)
+
     }
 
     @Test

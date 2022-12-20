@@ -12,13 +12,18 @@ import com.github.johnnysc.picsandlogintestapp.HasTextInputLayoutErrorMatcher
 import com.github.johnnysc.picsandlogintestapp.TextInputLayoutHasNoError
 
 
-open class BasePage {
-
+interface BasePage {
+    /**
+    клик по елементу
+     */
     fun clickElement(value: Int): BasePage {
         onView(withId(value)).perform(ViewActions.click())
         return this
     }
 
+    /**
+    проверка отображения
+     */
     fun checkIsDisplayed(value: Int): BasePage {
         onView(withId(value))
             .check(matches(ViewMatchers.isDisplayed()))
@@ -26,16 +31,26 @@ open class BasePage {
 
     }
 
+    /**
+    проверка строки с ошидкой
+     */
     fun hasTextInputLayoutErrorMatcher(value: Int, text: String): BasePage {
         onView(withId(value))
             .check(matches(HasTextInputLayoutErrorMatcher(text)))
         return this
     }
 
+    /**
+    отсустсвие ошибки
+     */
     fun textInputLayoutHasNoError(value: Int): BasePage {
         onView(withId(value)).check(matches(TextInputLayoutHasNoError()))
         return this
     }
+
+    /**
+    ввести  текст
+     */
 
     fun inputTextToForm(value: Int, text: String): BasePage {
         onView(withId(value)).perform(typeText(text), closeSoftKeyboard())

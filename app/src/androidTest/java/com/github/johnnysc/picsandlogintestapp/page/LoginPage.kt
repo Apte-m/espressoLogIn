@@ -3,8 +3,13 @@ package com.github.johnnysc.picsandlogintestapp.page
 import com.github.johnnysc.picsandlogintestapp.R
 
 
-class LoginPage : BasePage() {
+class LoginPage : BasePage {
 
+    constructor(action: LoginPage.() -> Unit) {
+        this.action()
+    }
+
+    constructor()
 
     companion object {
         const val navigationLogin = R.id.navigation_login
@@ -15,8 +20,6 @@ class LoginPage : BasePage() {
         const val inputTextLogin = R.id.emailAddressEditText
         const val emailAddress = R.id.emailAddressTextInputLayout
     }
-
-
 
 
 }
